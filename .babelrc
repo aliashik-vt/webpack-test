@@ -1,0 +1,18 @@
+{
+	"plugins": [
+		"transform-object-rest-spread",
+		"transform-class-properties",
+		[
+			"module-resolver",
+			{
+				"alias": {
+					"components": "./node_modules/bright-components/src/components",
+					"constants": "./node_modules/bright-components/src/constants",
+					"utils": "./node_modules/bright-components/src/utils",
+					"animations": "./node_modules/bright-components/src/animations"
+				}
+			}
+		]
+	],
+	"presets": ["@babel/preset-env", "@babel/preset-react"]
+}

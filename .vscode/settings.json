@@ -1,0 +1,8 @@
+{
+	"editor.tabSize": 3,
+	"editor.formatOnSave": true,
+	"prettier.requireConfig": true,
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact"
+	}
+}
